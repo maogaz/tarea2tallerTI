@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "nombre": "Anvurguesa",
+        "precio": "1000",
+        "descripcion": "deliciosa",
+        "imagen": "https://i.blogs.es/ef04e2/durr/840_560.jpeg",
+        "ingredientes": [
+            {
+             "1": "/api/ingredientes/1",
+             "2": "/api/ingredientes/2",
+             "7": "/api/ingredientes/2"
+            }
+        ]
+
+    },
+    {
+        "id": "2",
+        "nombre": "Big Mac",
+        "precio": "2000",
+        "descripcion": "La perfección hecha hamburguesa que te hace agua la boca comienza con dos patties de 100% carne y la salsa Big Mac®, todo dentro de un pan con semillas de ajonjolí. Viene cubierta con pepinillos, crujiente lechuga, cebollas y queso americano para lograr ese sabor único de la hamburguesa 100% de carne. No contiene sabores o conservantes artificiales ni colorantes agregados de fuentes artificiales*. Nuestros pepinillos contienen un conservante artificial, así que no lo ordenes si no quieres.",
+        "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Big_Mac_hamburger.jpg",
+        "ingredientes": [
+            {
+             "1": "/api/ingredientes/1",
+             "2": "/api/ingredientes/2",
+             "4": "/api/ingredientes/4",
+             "5": "/api/ingredientes/5",
+             "9": "/api/ingredientes/9"
+            }
+        ]
+
+    },
+    {
+        "id": "3",
+        "nombre": "DAVE’S DOBLE",
+        "precio": "3000",
+        "descripcion": "Disfrute el doble con esta hamburguesa preparada con carne 100% norteamericana de verdad y los más frescos acompañantes de primera en panes tostados. ¡Dave, nuestro fundador, se pondría el doble de orgulloso con esta creación!",
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSuCG2Mv2-SKmWxI0x0-dqIMtbXkaedNs4nSf2xMKNAEw1ZtfBF&usqp=CAU",
+        "ingredientes": [
+            {
+             "1": "/api/ingredientes/1",
+             "2": "/api/ingredientes/2",
+             "3": "/api/ingredientes/3",
+             "8": "/api/ingredientes/8"
+            }
+        ]
+
+    }
+    
+]

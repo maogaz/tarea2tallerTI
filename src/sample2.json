@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "nombre": "Pan",
+        "descripcion": "Hecho de harina"
+    },
+    {
+        "id": "2",
+        "nombre": "Tomate",
+        "descripcion": "Verdura roja"
+
+    },
+    {
+        "id": "3",
+        "nombre": "Carne",
+        "descripcion": "De un animal"
+    },
+    {
+        "id": "4",
+        "nombre": "Lechuga",
+        "descripcion": "Planta verde"
+
+    },
+    {
+        "id": "5",
+        "nombre": "Cebolla",
+        "descripcion": "Verdura que hace llorar"
+
+    },
+    {
+        "id": "6",
+        "nombre": "Pepinillo",
+        "descripcion": "asqueroso"
+
+    },
+    {
+        "id": "7",
+        "nombre": "Palta",
+        "descripcion": "Fruta verde molida"
+
+    },
+    {
+        "id": "8",
+        "nombre": "Mayonesa",
+        "descripcion": "Salsa amarilla"
+
+    },
+    {
+        "id": "9",
+        "nombre": "Ketchup",
+        "descripcion": "Salsa roja"
+
+    },
+    {
+        "id": "10",
+        "nombre": "Queso",
+        "descripcion": "Hecho de leche"
+
+    }
+
+    
+]
