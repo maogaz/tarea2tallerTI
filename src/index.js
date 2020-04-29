@@ -12,9 +12,9 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 app.use(require('./routes/index'));
-app.use('/api/hamburguesas',require('./routes/hamburgers'));
+app.use('/hamburguesas',require('./routes/hamburgers'));
 
-app.use('/api/ingredientes',require('./routes/ingredients'));
+app.use('/ingredientes',require('./routes/ingredients'));
 
 
 
