@@ -15,7 +15,7 @@ router.get('/:id', (req, res) => {
     _.each(hamburgers, (hamburger,i) => {
         if (hamburger.id == id) {
             res.status(200).send(hamburger);
-        } 
+        }
     });
     res.status(404).send('Hamburguesa inexistente');
 
@@ -27,7 +27,7 @@ router.post('/', (req, res) => {
     const ingredientes = [{}];
     if (nombre && precio && descripcion && imagen){
         const id = hamburgers.length + 1;
-        const newHamburger = {...req.body, id, ingredientes};
+        const newHamburger = {id, ...req.body, ingredientes};
         hamburgers.push(newHamburger);
         res.json(hamburgers);
 

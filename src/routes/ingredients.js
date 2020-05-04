@@ -26,7 +26,7 @@ router.post('/', (req, res) => {
     const { nombre, descripcion}= req.body;
     if (nombre && descripcion){
         const id = hamburgers.length + 1;
-        const newHamburger = {...req.body, id};
+        const newHamburger = {id, ...req.body};
         hamburgers.push(newHamburger);
         res.json(hamburgers);
 
