@@ -29,7 +29,7 @@ router.post('/', (req, res) => {
         const id = hamburgers.length + 1;
         const newHamburger = {id, ...req.body, ingredientes};
         hamburgers.push(newHamburger);
-        res.json(hamburgers);
+        res.json(newHamburger);
 
     } else {
         res.status(400).send('Input invalido');
