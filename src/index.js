@@ -12,14 +12,14 @@ app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 app.use(require('./routes/index'));
-app.use('/hamburguesas',require('./routes/hamburgers'));
+app.use('/hamburguesa',require('./routes/hamburgers'));
 
-app.use('/ingredientes',require('./routes/ingredients'));
-
-
+app.use('/ingrediente',require('./routes/ingredients'));
 
 
 
-app.listen(app.get('port'),() => { 
+
+
+app.listen(app.get('port'),() => {
     console.log(`Server on port ${app.get("port")}`);
 });
