@@ -28,7 +28,7 @@ router.post('/', (req, res) => {
         const id = hamburgers.length + 1;
         const newHamburger = {id, ...req.body,};
         hamburgers.push(newHamburger);
-        res.status(201).send('Ingrediente creado');
+        res.status(201).send(newHamburger);
 
     } else {
         res.status(400).send('Input invalido');
